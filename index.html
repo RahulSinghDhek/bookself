@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px" onload="init()">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/booksAndMountains.jpg" style="width:100%;height: 100%;" class="w3-round"><br><br>
+    <h4><b>Book Portfolio</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#books" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>Books</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://twitter.com/rahulsinghdhek"> <i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://in.linkedin.com/in/rahul-singh-dhek-75432775"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/rahul_singh_dhek/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="books">
+    <a href="#"><img src="images/profile.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Book Self</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <button class="w3-button w3-white tablinks" onclick="openTab(event,'current')">Current</button>
+      <button class="w3-button w3-white tablinks" onclick="openTab(event,'latest')" ><i class="fa w3-margin-right"></i>Just Finished</button>
+      <button class="w3-button w3-white tablinks" onclick="openTab(event,'upcoming')"><i class="fa  w3-margin-right"></i>Upcoming</button>
+      <button class="w3-button w3-white tablinks" onclick="openTab(event,'completed')"><i class="fa  w3-margin-right"></i>Completed</button>
+      <button class="w3-button w3-white tablinks" onclick="openTab(event,'unfinished')"><i class="fa  w3-margin-right"></i>Unfinished</button> 
+      <button class="w3-button w3-white tablinks" onclick="openTab(event,'mustread')"><i class="fa  w3-margin-right"></i>My Recommendation</button>
+      
+    </div>
+    </div>
+  </header>
+  
+  <!-- Current-->
+  <div id ="current" class="w3-row-padding tabName">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="https://www.amazon.in/gp/product/1861978774/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1" ><img src="images/borntorun.jpg" alt="borntorun" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+      <div class="w3-container w3-white">
+      </div></a>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.amazon.in/gp/product/067009045X/ref=ppx_yo_dt_b_asin_title_o07_s01?ie=UTF8&psc=1" ><img src="images/coffeeCanInvesting.jpg" alt="coffeeCanInvesting" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+          <div class="w3-container w3-white"></div>
+        </a>
+    </div>
+  </div>
+  
+  <!-- Latest-->
+  <div id ="latest" class="w3-row-padding tabName">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9388144317/ref=ppx_yo_dt_b_asin_title_o03_s04?ie=UTF8&psc=1"><img src="images/richestManInBabylon.jpeg" alt="richestManInBabylon" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+        </div>
+  </div>
+
+  <!-- upcoming reads-->
+  <div id ="upcoming" class="w3-row-padding tabName">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9352640284/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1" ><img src="images/keepofgrass.jpg" alt="keepofgrass" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/1471146723/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i0" ><img src="images/shoedog.jpg" alt="shoedog" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9353022797/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1" ><img src="images/themostimportantthing.jpg" alt="themostimportantthing" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+      </div>
+      
+        
+  </div>
+
+
+  <!-- upcoming reads-->
+  <div id ="unfinished" class="w3-row-padding tabName">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0062312685/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1" ><img src="images/ii.jpg" alt="ii" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <a href="https://www.amazon.in/gp/product/033043313X/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1" ><img src="images/chasingmonsoon.jpg" alt="coffeeCanInvesting" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+              <div class="w3-container w3-white"></div>
+            </a>
+        </div>
+        <div class="w3-third w3-container w3-margin-bottom">
+            <a href="https://www.amazon.in/gp/product/8192910911/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1" ><img src="images/thinkngrow.jpg" alt="ii" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+              <div class="w3-container w3-white"></div>
+            </a>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+              <a href="https://www.amazon.in/gp/product/0141186100/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1" ><img src="images/travelwithcharley.jpg" alt="travelwithcharley" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+                <div class="w3-container w3-white"></div>
+              </a>
+          </div>
+          <div class="w3-third w3-container w3-margin-bottom">
+              <a href="https://www.amazon.in/Mountains-Echoed-Khaled-Hosseni/dp/9384898082/ref=pd_bxgy_img_3/258-2149155-5403660?_encoding=UTF8&pd_rd_i=9384898082&pd_rd_r=a586fc79-2c67-49dc-871b-6c557d45345d&pd_rd_w=AhL2X&pd_rd_wg=wNe3u&pf_rd_p=3e9f62d7-4196-4823-b41a-9bba671558ea&pf_rd_r=GVXN03DJ240RAP1NGTX9&psc=1&refRID=GVXN03DJ240RAP1NGTX9" ><img src="images/mountainsechoed.jpeg" alt="mountainsechoed" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+                <div class="w3-container w3-white"></div>
+              </a>
+          </div>
+
+  </div>
+
+  <div id ="mustread" class="w3-row-padding tabName">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/Kite-Runner-Khaled-Hosseini/dp/1408850257/ref=pd_sbs_14_1/258-2149155-5403660?_encoding=UTF8&pd_rd_i=1408850257&pd_rd_r=2d5a4317-87f0-483d-b9ef-d342fbb9f441&pd_rd_w=xBwiB&pd_rd_wg=LinWn&pf_rd_p=00b53f5d-d1f8-4708-89df-2987ccce05ce&pf_rd_r=S1XGPSK8JJTBKS7W4GNF&psc=1&refRID=S1XGPSK8JJTBKS7W4GNF" ><img src="images/kiterunner.jpg" alt="kiterunner" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.amazon.in/gp/product/1861978774/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1" ><img src="images/borntorun.jpg" alt="borntorun" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+        <div class="w3-container w3-white">
+        </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9388144317/ref=ppx_yo_dt_b_asin_title_o03_s04?ie=UTF8&psc=1"><img src="images/richestManInBabylon.jpeg" alt="richestManInBabylon" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/1612680011/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1"><img src="images/richdadpoordad.jpg" alt="richdadpoordad" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.amazon.in/gp/product/B00MXSAGDI/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0" ><img src="images/itoohadadream.jpg" alt="itoohadadream" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+          <div class="w3-container w3-white"></div>
+        </a>
+      </div>
+
+  </div>
+
+  
+
+  <!-- completed reads-->
+  <div id ="completed" class="w3-row-padding">
+      <div class="w3-section w3-bottombar w3-padding-16">
+          <button class="w3-button w3-white " onclick="BookCompleted('all')">All</button>
+          <button class="w3-button w3-white " onclick="BookCompleted('finance')" ><i class="fa w3-margin-right"></i>Finance</button>
+          <button class="w3-button w3-white " onclick="BookCompleted('fiction')"><i class="fa  w3-margin-right"></i>Fiction</button>
+          <button class="w3-button w3-white " onclick="BookCompleted('nonfiction')"><i class="fa  w3-margin-right"></i>Non Fiction</button> 
+          <button class="w3-button w3-white " onclick="BookCompleted('selfimprovement')"><i class="fa  w3-margin-right"></i>Self Improvement</button>
+      </div>
+  </div>
+  <div id ="finance" class="w3-row-padding completedTab">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9388144317/ref=ppx_yo_dt_b_asin_title_o03_s04?ie=UTF8&psc=1"><img src="images/richestManInBabylon.jpeg" alt="richestManInBabylon" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/Made-Stock-Market-Hardcover-Library/dp/9389440211/ref=sr_1_1?crid=DQG4RTWMJVEF&dchild=1&keywords=how+i+made+2+million+in+the+stock+market&qid=1600268969&sprefix=how+i+made+2+mi%2Caps%2C347&sr=8-1" ><img src="images/howimade2million.jpg" alt="howimade2million" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/1612680011/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1"><img src="images/richdadpoordad.jpg" alt="richdadpoordad" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0070077630/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"><img src="images/valueinvesting.jpg" alt="valueinvesting" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+
+  </div>
+
+  <div id ="fiction" class="w3-row-padding completedTab">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0099549484/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" ><img src="images/killamockingbird.jpg" alt="killamockingbird" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+            <a href="https://www.amazon.in/Kite-Runner-Khaled-Hosseini/dp/1408850257/ref=pd_sbs_14_1/258-2149155-5403660?_encoding=UTF8&pd_rd_i=1408850257&pd_rd_r=2d5a4317-87f0-483d-b9ef-d342fbb9f441&pd_rd_w=xBwiB&pd_rd_wg=LinWn&pf_rd_p=00b53f5d-d1f8-4708-89df-2987ccce05ce&pf_rd_r=S1XGPSK8JJTBKS7W4GNF&psc=1&refRID=S1XGPSK8JJTBKS7W4GNF" ><img src="images/kiterunner.jpg" alt="kiterunner" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+              <div class="w3-container w3-white"></div>
+            </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+            <a href="https://www.amazon.in/gp/product/1408844443/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1" ><img src="images/splendidsun.jpg" alt="splendidsun" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+              <div class="w3-container w3-white"></div>
+            </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0552779776/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"><img src="images/girlontrain.jpg" alt="girlontrain" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B013VO02QI/ref=dbs_a_def_rwt_bibl_vppi_i6"><img src="images/fivepointsomeone.jpg" alt="fivepointsomeone" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B079HWCNNC/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"><img src="images/dreamingreality.jpg" alt="richdadpoordad" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/8129135515/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i3"><img src="images/3mistakes.jpg" alt="3mistakes" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B013VO02ZO/ref=dbs_a_def_rwt_bibl_vppi_i10"><img src="images/2states.jpg" alt="2states" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/Your-Closest-Friend-shocking-thriller/dp/1405936657/ref=sr_1_1?crid=19WGN6ND7LB9L&dchild=1&keywords=your+closest+friend&qid=1600091979&s=books&sprefix=your+close%2Cstripbooks%2C350&sr=1-1"><img src="images/closestfriend.jpg" alt="fivepointsomeone" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B013VO02NQ/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i5"><img src="images/nightatcallcenter.jpg" alt="nightatcallcenter" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+  </div>
+
+  <div id ="nonfiction" class="w3-row-padding completedTab">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9352352440/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1"><img src="images/whenroadbeckon.jpg" alt="whenroadbeckon" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0143422359/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1"><img src="images/paramveer.jpg" alt="paramveer" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/812910699X/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"><img src="images/roadtomussorie.jpg" alt="fivepointsomeone" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.amazon.in/gp/product/B00MXSAGDI/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0" ><img src="images/itoohadadream.jpg" alt="itoohadadream" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+          <div class="w3-container w3-white"></div>
+        </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.amazon.in/Made-Stock-Market-Hardcover-Library/dp/9389440211/ref=sr_1_1?crid=DQG4RTWMJVEF&dchild=1&keywords=how+i+made+2+million+in+the+stock+market&qid=1600268969&sprefix=how+i+made+2+mi%2Caps%2C347&sr=8-1" ><img src="images/howimade2million.jpg" alt="howimade2million" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+          <div class="w3-container w3-white"></div>
+        </a>
+    </div>
+  </div>
+
+  <div id ="all" class="w3-row-padding completedTab">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9388144317/ref=ppx_yo_dt_b_asin_title_o03_s04?ie=UTF8&psc=1"><img src="images/richestManInBabylon.jpeg" alt="richestManInBabylon" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0099549484/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1" ><img src="images/killamockingbird.jpg" alt="killamockingbird" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+            <div class="w3-container w3-white"></div>
+          </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+            <a href="https://www.amazon.in/Kite-Runner-Khaled-Hosseini/dp/1408850257/ref=pd_sbs_14_1/258-2149155-5403660?_encoding=UTF8&pd_rd_i=1408850257&pd_rd_r=2d5a4317-87f0-483d-b9ef-d342fbb9f441&pd_rd_w=xBwiB&pd_rd_wg=LinWn&pf_rd_p=00b53f5d-d1f8-4708-89df-2987ccce05ce&pf_rd_r=S1XGPSK8JJTBKS7W4GNF&psc=1&refRID=S1XGPSK8JJTBKS7W4GNF" ><img src="images/kiterunner.jpg" alt="kiterunner" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+              <div class="w3-container w3-white"></div>
+            </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <a href="https://www.amazon.in/gp/product/B00MXSAGDI/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0" ><img src="images/itoohadadream.jpg" alt="itoohadadream" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+          <div class="w3-container w3-white"></div>
+        </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+            <a href="https://www.amazon.in/gp/product/1408844443/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1" ><img src="images/splendidsun.jpg" alt="splendidsun" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+              <div class="w3-container w3-white"></div>
+            </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+              <a href="https://www.amazon.in/Made-Stock-Market-Hardcover-Library/dp/9389440211/ref=sr_1_1?crid=DQG4RTWMJVEF&dchild=1&keywords=how+i+made+2+million+in+the+stock+market&qid=1600268969&sprefix=how+i+made+2+mi%2Caps%2C347&sr=8-1" ><img src="images/howimade2million.jpg" alt="howimade2million" style="width:250px;height: 350px;" class="w3-hover-opacity" >
+                <div class="w3-container w3-white"></div>
+              </a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0552779776/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"><img src="images/girlontrain.jpg" alt="girlontrain" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/9352352440/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1"><img src="images/whenroadbeckon.jpg" alt="whenroadbeckon" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/1612680011/ref=ppx_yo_dt_b_asin_title_o05_s01?ie=UTF8&psc=1"><img src="images/richdadpoordad.jpg" alt="richdadpoordad" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B013VO02QI/ref=dbs_a_def_rwt_bibl_vppi_i6"><img src="images/fivepointsomeone.jpg" alt="fivepointsomeone" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0143422359/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1"><img src="images/paramveer.jpg" alt="paramveer" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/0070077630/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"><img src="images/valueinvesting.jpg" alt="valueinvesting" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B079HWCNNC/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"><img src="images/dreamingreality.jpg" alt="richdadpoordad" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/812910699X/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"><img src="images/roadtomussorie.jpg" alt="fivepointsomeone" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/Your-Closest-Friend-shocking-thriller/dp/1405936657/ref=sr_1_1?crid=19WGN6ND7LB9L&dchild=1&keywords=your+closest+friend&qid=1600091979&s=books&sprefix=your+close%2Cstripbooks%2C350&sr=1-1"><img src="images/closestfriend.jpg" alt="fivepointsomeone" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B013VO02NQ/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i5"><img src="images/nightatcallcenter.jpg" alt="nightatcallcenter" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/8172234988/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i0"><img src="images/alchemist.jpg" alt="alchemist" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/8129135515/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i3"><img src="images/3mistakes.jpg" alt="3mistakes" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/B013VO02ZO/ref=dbs_a_def_rwt_bibl_vppi_i10"><img src="images/2states.jpg" alt="2states" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+  </div>
+
+  <!-- unfinished reads-->
+  <div id ="selfimprovement" class="w3-row-padding tabName">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <a href="https://www.amazon.in/gp/product/8172234988/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i0"><img src="images/alchemist.jpg" alt="alchemist" style="width:250px;height: 350px;" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+          </div></a>
+      </div>
+    </div>
+
+
+
+  <div class="w3-container w3-padding-large" id="about" style="margin-bottom:32px">
+    <h4><b>About Me</b></h4>
+    <p>Me, myself and I, exploring the universe of unknownment since childhood. We can have conversation about life, mountains, finance, football and that unknown and less travelled place that my friends and I found out this year. Till then read books and borrow someone else's brain</p>
+    <hr>  
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Me</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>myfullname@gmail.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>India</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+  </div>
+
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+function openTab(evt,tabName) {
+  var i;
+  var x = document.getElementsByClassName("tabName");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block"; 
+  if(tabName!="completed"){
+    hideCompletedReads()
+  }else{
+
+  }
+
+  var tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  evt.currentTarget.className += " active";
+}
+
+function BookCompleted(tabName){
+  var i;
+  var x = document.getElementsByClassName("completedTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(tabName).style.display = "block"; 
+}
+
+function init(){
+  var x = document.getElementsByClassName("tabName");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById("current").style.display = "block"; 
+  hideCompletedReads();
+}
+
+function hideCompletedReads(){
+  var x = document.getElementsByClassName("completedTab");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  var x = document.getElementById("completed");
+  x.style.display = "none"
+}
+</script>
+
+</body>
+</html>
