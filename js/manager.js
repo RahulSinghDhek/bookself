@@ -202,13 +202,10 @@ function updateBookShelf(){
 	var bookTags = null;
 	var mainDiv = "";
 	for (var bookName in bookShelf) {
-		console.log(bookName);
 		imageSource = bookShelf[bookName]["imageSource"]
 		bookTags = bookShelf[bookName]["tags"]
 		bookUrl = bookShelf[bookName]["url"]
-		console.log(bookTags);
 		for ( i=0; i< bookTags.length;i++){
-			console.log(bookTags[i]);
 			mainDiv += '<div class="w3-third w3-container w3-margin-bottom"><a href="'+bookUrl+'" ><img src="'+imageSource+'" style="width:250px;height: 350px;" class="w3-hover-opacity" >'
 			mainDiv += '<div class="w3-container w3-white"></div></a></div>'
 			mainDiv += '</div>'
