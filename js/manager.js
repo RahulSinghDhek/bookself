@@ -133,12 +133,12 @@ var bookShelf = {
 	},
 	"shoedog":{
 		"imageSource":"images/shoedog.jpg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/gp/product/1471146723/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
 	"themostimportantthing":{
 		"imageSource":"images/themostimportantthing.jpg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/gp/product/9353022797/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	"atomichabit":{
