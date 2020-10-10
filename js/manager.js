@@ -18,7 +18,7 @@ var bookShelf = {
 	},
 	"coffeeCanInvesting":{
 		"imageSource":"images/coffeeCanInvesting.jpg",
-		"tags":["current"],
+		"tags":["justfinished","all","finance"],
 		"url":"https://www.amazon.in/gp/product/067009045X/ref=ppx_yo_dt_b_asin_title_o07_s01?ie=UTF8&psc=1"
 	},
 	"richestManInBabylon":{
@@ -143,7 +143,7 @@ var bookShelf = {
 	},
 	"atomichabit":{
 		"imageSource":"images/atomichabit.jpg",
-		"tags":["current"],
+		"tags":["justfinished","all","mustread","selfimprovement"],
 		"url":"https://www.amazon.in/gp/product/1847941834/ref=ppx_yo_dt_b_asin_title_o07_s01?ie=UTF8&psc=1"
 	},
 	"2states":{
@@ -160,6 +160,16 @@ var bookShelf = {
 		"imageSource":"images/alchemist.jpg",
 		"tags":["selfimprovement","all"],
 		"url":"https://www.amazon.in/gp/product/8172234988/ref=dbs_a_def_rwt_hsch_vapi_tu00_p1_i0"
+	},
+	"open":{
+		"imageSource":"images/open.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/Open-Autobiography-Andre-Agassi/dp/0307388409"
+	},
+	"intothewild":{
+		"imageSource":"images/intothewild.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/gp/product/B005AV93JI/ref=dbs_a_def_rwt_bibl_vppi_i10"
 	},
 	
 }
