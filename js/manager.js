@@ -171,7 +171,16 @@ var bookShelf = {
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/gp/product/B005AV93JI/ref=dbs_a_def_rwt_bibl_vppi_i10"
 	},
-	
+	"flightofpigeions":{
+		"imageSource":"images/peigonflight.jpg",
+		"tags":["justfinished","all","nonfiction"],
+		"url":"https://www.amazon.in/Flight-Pigeons-Ruskin-Bond/dp/0143063227/ref=sr_1_1?crid=2IZ17JFOBR9BY&dchild=1&keywords=flight+of+pigeons&qid=1604316174&s=books&sprefix=flight+of+p%2Cstripbooks%2C776&sr=1-1"
+	},
+	"thinklikeamonk":{
+		"imageSource":"images/thinklikeamonk.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595"
+	},
 }
 
 
