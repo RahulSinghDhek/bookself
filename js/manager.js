@@ -138,7 +138,7 @@ var bookShelf = {
 	},
 	"themostimportantthing":{
 		"imageSource":"images/themostimportantthing.jpg",
-		"tags":["current"],
+		"tags":["upcoming"],
 		"url":"https://www.amazon.in/gp/product/9353022797/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	"atomichabit":{
@@ -168,7 +168,7 @@ var bookShelf = {
 	},
 	"intothewild":{
 		"imageSource":"images/intothewild.jpg",
-		"tags":["upcoming"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/gp/product/B005AV93JI/ref=dbs_a_def_rwt_bibl_vppi_i10"
 	},
 	"flightofpigeions":{
