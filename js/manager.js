@@ -43,7 +43,7 @@ var bookShelf = {
 	},
 	"closestfriend":{
 		"imageSource":"images/closestfriend.jpg",
-		"tags":["fiction","all"],
+		"tags":["justfinished","fiction","all"],
 		"url":"https://www.amazon.in/Your-Closest-Friend-shocking-thriller/dp/1405936657/ref=sr_1_1?crid=19WGN6ND7LB9L&dchild=1&keywords=your+closest+friend&qid=1600091979&s=books&sprefix=your+close%2Cstripbooks%2C350&sr=1-1"
 	},
 	"richdadpoordad":{
@@ -133,7 +133,7 @@ var bookShelf = {
 	},
 	"shoedog":{
 		"imageSource":"images/shoedog.jpg",
-		"tags":["current"],
+		"tags":["justfinished", "all","mustread", "nonfiction"],
 		"url":"https://www.amazon.in/gp/product/1471146723/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
 	"themostimportantthing":{
