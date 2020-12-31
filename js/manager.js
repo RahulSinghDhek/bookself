@@ -181,6 +181,11 @@ var bookShelf = {
 		"tags":["current"],
 		"url":"https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595"
 	},
+	"psychologyofmoney":{
+		"imageSource":"images/psychologyofmoney.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Psychology-Money-Timeless-lessons-happiness/dp/0857197681"
+	},
 }
 
 
