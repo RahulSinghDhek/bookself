@@ -178,13 +178,18 @@ var bookShelf = {
 	},
 	"thinklikeamonk":{
 		"imageSource":"images/thinklikeamonk.jpg",
-		"tags":["current"],
+		"tags":["justfinished","all","mustread","selfimprovement"],
 		"url":"https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595"
 	},
 	"psychologyofmoney":{
 		"imageSource":"images/psychologyofmoney.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/Psychology-Money-Timeless-lessons-happiness/dp/0857197681"
+	},
+	"bookofmirdad":{
+		"imageSource":"images/bookofmirdad.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Book-Mirdad-Strange-Monastery-Called/dp/1842930389"
 	},
 }
 
