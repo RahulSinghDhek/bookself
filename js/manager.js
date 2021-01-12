@@ -183,13 +183,23 @@ var bookShelf = {
 	},
 	"psychologyofmoney":{
 		"imageSource":"images/psychologyofmoney.jpg",
-		"tags":["current"],
+		"tags":["2021","all","mustread","finance"],
 		"url":"https://www.amazon.in/Psychology-Money-Timeless-lessons-happiness/dp/0857197681"
 	},
 	"bookofmirdad":{
 		"imageSource":"images/bookofmirdad.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/Book-Mirdad-Strange-Monastery-Called/dp/1842930389"
+	},
+	"siddhartha":{
+		"imageSource":"images/siddhartha.jpg",
+		"tags":["2021","all","selfimprovement"],
+		"url":"https://www.amazon.in/gp/product/B06ZYXXB86/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i0"
+	},
+	"ikigai":{
+		"imageSource":"images/ikigai.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
 	},
 }
 
@@ -205,7 +215,7 @@ function updateBackgroundColors(tabs,tabid){
 	} 
 }
 function updateTabBackgroundColors(tabid,isSubTab){
-	var tabs= ["currenttab","justfinishedtab","upcomingtab","completedtab","unfinishedtab","mustreadtab"];
+	var tabs= ["currenttab","justfinishedtab","upcomingtab","completedtab","unfinishedtab","mustreadtab","2021"];
 	var subTabs = ["alltab","financetab","fictiontab","nonfictiontab","selfimprovementtab"]; 
 	if(isSubTab){
 		updateBackgroundColors(subTabs,tabid);
