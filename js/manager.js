@@ -198,9 +198,16 @@ var bookShelf = {
 	},
 	"ikigai":{
 		"imageSource":"images/ikigai.jpg",
-		"tags":["current"],
+		"tags":["2021","all","selfimprovement"],
 		"url":"https://www.amazon.in/Ikigai-H%C3%A9ctor-Garc%C3%ADa/dp/178633089X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
 	},
+	
+	"jonathan":{
+		"imageSource":"images/jonathan.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Jonathan-Livingston-Seagull-Richard-Bach/dp/817223578X"
+	},
+	
 }
 
 
