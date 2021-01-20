@@ -138,7 +138,7 @@ var bookShelf = {
 	},
 	"themostimportantthing":{
 		"imageSource":"images/themostimportantthing.jpg",
-		"tags":["upcoming"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/gp/product/9353022797/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	"atomichabit":{
@@ -207,6 +207,12 @@ var bookShelf = {
 		"tags":["current"],
 		"url":"https://www.amazon.in/Jonathan-Livingston-Seagull-Richard-Bach/dp/817223578X"
 	},
+	"freedom":{
+		"imageSource":"images/freedom.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/Freedom-Known-J-Krishnamurti/dp/1846042135"
+	},
+	
 	
 }
 
