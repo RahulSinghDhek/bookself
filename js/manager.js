@@ -204,12 +204,12 @@ var bookShelf = {
 	
 	"jonathan":{
 		"imageSource":"images/jonathan.jpg",
-		"tags":["current"],
+		"tags":["2021","all","fiction"],
 		"url":"https://www.amazon.in/Jonathan-Livingston-Seagull-Richard-Bach/dp/817223578X"
 	},
 	"freedom":{
 		"imageSource":"images/freedom.jpg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/Freedom-Known-J-Krishnamurti/dp/1846042135"
 	},
 	
