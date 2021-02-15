@@ -163,7 +163,7 @@ var bookShelf = {
 	},
 	"open":{
 		"imageSource":"images/open.jpg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/Open-Autobiography-Andre-Agassi/dp/0307388409"
 	},
 	"intothewild":{
@@ -209,7 +209,7 @@ var bookShelf = {
 	},
 	"freedom":{
 		"imageSource":"images/freedom.jpg",
-		"tags":["current"],
+		"tags":["2021","all","selfimprovement"],
 		"url":"https://www.amazon.in/Freedom-Known-J-Krishnamurti/dp/1846042135"
 	},
 	
