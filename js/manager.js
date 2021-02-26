@@ -91,7 +91,7 @@ var bookShelf = {
 		"tags":["unfinished"],
 		"url":"https://www.amazon.in/gp/product/0062312685/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1"
 	},
-	"whitetiger":{
+	"whiteTiger":{
 		"imageSource":"images/whitetiger.jpg",
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/gp/product/1843547228/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"
