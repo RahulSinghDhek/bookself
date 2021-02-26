@@ -91,10 +91,10 @@ var bookShelf = {
 		"tags":["unfinished"],
 		"url":"https://www.amazon.in/gp/product/0062312685/ref=ppx_yo_dt_b_asin_title_o09_s00?ie=UTF8&psc=1"
 	},
-	"keepofgrass":{
-		"imageSource":"images/keepofgrass.jpg",
+	"whitetiger":{
+		"imageSource":"images/whitetiger.jpg",
 		"tags":["upcoming"],
-		"url":"https://www.amazon.in/gp/product/9352640284/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
+		"url":"https://www.amazon.in/gp/product/1843547228/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"
 	},
 	"mountainsechoed":{
 		"imageSource":"images/mountainsechoed.jpeg",
@@ -211,6 +211,16 @@ var bookShelf = {
 		"imageSource":"images/freedom.jpg",
 		"tags":["2021","all","selfimprovement"],
 		"url":"https://www.amazon.in/Freedom-Known-J-Krishnamurti/dp/1846042135"
+	},
+	"manssearch":{
+		"imageSource":"images/manssearch.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/Mans-Search-Meaning-Viktor-Frankl/dp/1846041244/ref=sr_1_1?crid=1EHIPEPZBEJU5&dchild=1&keywords=man+search+for+meaning&qid=1614346401&sprefix=man+searc%2Caps%2C291&sr=8-1"
+	},
+	"keepofgrass":{
+		"imageSource":"images/keepofgrass.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/gp/product/9352640284/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	
 	
