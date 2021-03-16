@@ -163,7 +163,7 @@ var bookShelf = {
 	},
 	"open":{
 		"imageSource":"images/open.jpg",
-		"tags":["current"],
+		"tags":["2021","all","nonfiction"],
 		"url":"https://www.amazon.in/Open-Autobiography-Andre-Agassi/dp/0307388409"
 	},
 	"intothewild":{
@@ -222,6 +222,12 @@ var bookShelf = {
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/gp/product/9352640284/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
+	"tuesdayswithmorrie":{
+		"imageSource":"images/tuesdayswithmorrie.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Tuesdays-Morrie-Greatest-Lesson-Anniversary/dp/076790592X"
+	},
+	
 	
 	
 }
