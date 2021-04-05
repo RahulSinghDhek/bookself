@@ -188,7 +188,7 @@ var bookShelf = {
 	},
 	"bookofmirdad":{
 		"imageSource":"images/bookofmirdad.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/Book-Mirdad-Strange-Monastery-Called/dp/1842930389"
 	},
 	"siddhartha":{
