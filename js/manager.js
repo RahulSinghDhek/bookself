@@ -214,7 +214,7 @@ var bookShelf = {
 	},
 	"manssearch":{
 		"imageSource":"images/manssearch.jpg",
-		"tags":["upcoming"],
+		"tags":["2021","all","nonfiction"],
 		"url":"https://www.amazon.in/Mans-Search-Meaning-Viktor-Frankl/dp/1846041244/ref=sr_1_1?crid=1EHIPEPZBEJU5&dchild=1&keywords=man+search+for+meaning&qid=1614346401&sprefix=man+searc%2Caps%2C291&sr=8-1"
 	},
 	"keepofgrass":{
