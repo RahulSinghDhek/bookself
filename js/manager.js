@@ -93,7 +93,7 @@ var bookShelf = {
 	},
 	"whiteTiger":{
 		"imageSource":"images/whiteTiger.jpg",
-		"tags":["current"],
+		"tags":["2021","all","fiction"],
 		"url":"https://www.amazon.in/gp/product/1843547228/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1"
 	},
 	"mountainsechoed":{
