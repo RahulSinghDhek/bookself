@@ -38,7 +38,7 @@ var bookShelf = {
 	},
 	"kiterunner":{
 		"imageSource":"images/kiterunner.jpg",
-		"tags":["all","fiction","mustread"],
+		"tags":["all","fiction","mustread","upcoming"],
 		"url":"https://www.amazon.in/Kite-Runner-Khaled-Hosseini/dp/1408850257/ref=pd_sbs_14_1/258-2149155-5403660?_encoding=UTF8&pd_rd_i=1408850257&pd_rd_r=2d5a4317-87f0-483d-b9ef-d342fbb9f441&pd_rd_w=xBwiB&pd_rd_wg=LinWn&pf_rd_p=00b53f5d-d1f8-4708-89df-2987ccce05ce&pf_rd_r=S1XGPSK8JJTBKS7W4GNF&psc=1&refRID=S1XGPSK8JJTBKS7W4GNF"
 	},
 	"closestfriend":{
@@ -224,13 +224,29 @@ var bookShelf = {
 	},
 	"tuesdayswithmorrie":{
 		"imageSource":"images/tuesdayswithmorrie.jpg",
-		"tags":["current"],
+		"tags":["2021","all","nonfiction","mustread"],
 		"url":"https://www.amazon.in/Tuesdays-Morrie-Greatest-Lesson-Anniversary/dp/076790592X"
 	},
 	"littlebird":{
 		"imageSource":"images/littlebird.jpg",
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/Things-Little-Bird-Told-Me/dp/1447271122"
+	},
+	"senseofending":{
+		"imageSource":"images/senseofEnding.jpg",
+		"tags":["current"],
+		"https://www.amazon.in/gp/product/0099570335/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"
+	},
+	"oneupwallstreet":{
+		"imageSource":"images/oneupwallstreet.jpeg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/gp/product/B01M01SMH1/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
+	},
+	
+	"warrenway":{
+		"imageSource":"images/warrenway.jpeg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/gp/product/1118819233/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
 	
 	
