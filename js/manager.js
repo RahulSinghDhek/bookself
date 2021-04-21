@@ -238,7 +238,7 @@ var bookShelf = {
 		"url":"https://www.amazon.in/gp/product/0099570335/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"
 	},
 	"oneupwallstreet":{
-		"imageSource":"images/oneupwallstreet.jpeg",
+		"imageSource":"images/oneuponwallstreet.jpeg",
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/gp/product/B01M01SMH1/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
