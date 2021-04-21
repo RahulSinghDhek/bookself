@@ -235,7 +235,7 @@ var bookShelf = {
 	"senseofending":{
 		"imageSource":"images/senseofEnding.jpg",
 		"tags":["current"],
-		"https://www.amazon.in/gp/product/0099570335/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"
+		"url":"https://www.amazon.in/gp/product/0099570335/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"
 	},
 	"oneupwallstreet":{
 		"imageSource":"images/oneupwallstreet.jpeg",
