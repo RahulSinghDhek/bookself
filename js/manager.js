@@ -38,7 +38,7 @@ var bookShelf = {
 	},
 	"kiterunner":{
 		"imageSource":"images/kiterunner.jpg",
-		"tags":["all","fiction","mustread","upcoming"],
+		"tags":["all","fiction","mustread","current"],
 		"url":"https://www.amazon.in/Kite-Runner-Khaled-Hosseini/dp/1408850257/ref=pd_sbs_14_1/258-2149155-5403660?_encoding=UTF8&pd_rd_i=1408850257&pd_rd_r=2d5a4317-87f0-483d-b9ef-d342fbb9f441&pd_rd_w=xBwiB&pd_rd_wg=LinWn&pf_rd_p=00b53f5d-d1f8-4708-89df-2987ccce05ce&pf_rd_r=S1XGPSK8JJTBKS7W4GNF&psc=1&refRID=S1XGPSK8JJTBKS7W4GNF"
 	},
 	"closestfriend":{
@@ -248,6 +248,13 @@ var bookShelf = {
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/gp/product/1118819233/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
+	
+	"joysofcompounding":{
+		"imageSource":"images/joysofcompounding.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/Joys-Compounding-Passionate-Lifelong-Learning/dp/9390351014/ref=pd_lpo_14_img_0/260-0633092-8167801?_encoding=UTF8&pd_rd_i=9390351014&pd_rd_r=300997f2-5477-40c9-ba83-9bec4dfafb53&pd_rd_w=e42Of&pd_rd_wg=cPSK3&pf_rd_p=6b10875b-45e7-4b58-9b02-21bb75fd5289&pf_rd_r=QHF7NAQN1KNBFHR4HEMY&psc=1&refRID=QHF7NAQN1KNBFHR4HEMY"
+	},
+	
 	
 	
 }
