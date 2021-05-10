@@ -234,7 +234,7 @@ var bookShelf = {
 	},
 	"senseofending":{
 		"imageSource":"images/senseofEnding.jpg",
-		"tags":["current"],
+		"tags":["2021","all","fiction"],
 		"url":"https://www.amazon.in/gp/product/0099570335/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1"
 	},
 	"oneupwallstreet":{
@@ -245,7 +245,7 @@ var bookShelf = {
 	
 	"warrenway":{
 		"imageSource":"images/warrenway.jpeg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/gp/product/1118819233/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
 	
