@@ -245,7 +245,7 @@ var bookShelf = {
 	
 	"warrenway":{
 		"imageSource":"images/warrenway.jpeg",
-		"tags":["current"],
+		"tags":["2021","all","nonfiction","mustread"],
 		"url":"https://www.amazon.in/gp/product/1118819233/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
 	
@@ -256,9 +256,22 @@ var bookShelf = {
 	},
 	"norwegianwood":{
 		"imageSource":"images/norwegianwood.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/Norwegian-Wood-Haruki-Murakami/dp/0099448823"
 	},
+	
+	"hardthingsabouthardthings":{
+		"imageSource":"images/hardthings.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/gp/product/0062273205/ref=ox_sc_act_image_1?smid=AT95IG9ONZD7S&psc=1"
+	},
+	
+	"onwriting":{
+		"imageSource":"images/onwriting.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Writing-Memoir-Craft-Stephen-King/dp/1444723251/ref=sr_1_1?dchild=1&keywords=on+writing&qid=1629183269&sr=8-1"
+	},
+	
 	
 	
 }
