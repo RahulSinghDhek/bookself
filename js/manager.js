@@ -245,7 +245,7 @@ var bookShelf = {
 	
 	"warrenway":{
 		"imageSource":"images/warrenway.jpeg",
-		"tags":["2021","all","nonfiction","mustread"],
+		"tags":["2021","all","finance","mustread"],
 		"url":"https://www.amazon.in/gp/product/1118819233/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1"
 	},
 	
