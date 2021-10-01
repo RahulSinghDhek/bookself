@@ -239,7 +239,7 @@ var bookShelf = {
 	},
 	"oneupwallstreet":{
 		"imageSource":"images/oneuponwallstreet.jpeg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/gp/product/B01M01SMH1/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	
@@ -268,8 +268,23 @@ var bookShelf = {
 	
 	"onwriting":{
 		"imageSource":"images/onwriting.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/Writing-Memoir-Craft-Stephen-King/dp/1444723251/ref=sr_1_1?dchild=1&keywords=on+writing&qid=1629183269&sr=8-1"
+	},
+	"letstalkmoney":{
+		"imageSource":"images/letstalkmoney.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/Lets-Talk-Money-Youve-Worked/dp/9352779398/ref=sr_1_2?adgrpid=58389672949&dchild=1&ext_vrnc=hi&gclid=CjwKCAjw49qKBhAoEiwAHQVTo98ANG75Xo8_nAZuZiLQ0sjbY5bcXtAwbGSOHgxxSrg5snrI0_hUaRoCyxUQAvD_BwE&hvadid=294110908938&hvdev=c&hvlocphy=21341&hvnetw=g&hvqmt=e&hvrand=929743974091468497&hvtargid=kwd-330135955363&hydadcr=23639_1725049&keywords=lets+talk+money&qid=1633108825&qsid=260-0633092-8167801&sr=8-2&sres=9352779398%2CB099Q53HW1%2C1886284407%2CB078S8TZKQ%2CB00M6DYCH6%2CB07P2GKTHJ%2CB08D9M3VB8%2CB07NQKHPSN%2C9380942885%2C0836600126%2CB093PXCC3M%2CB08MDCQ283%2CB0058W5QH2%2CB09HMPRJ5W%2CB01HEAGDJU%2CB07ZGBMZBN&srpt=ABIS_BOOK"
+	},
+	"fearless1":{
+		"imageSource":"images/fearless1.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Indias-Most-Fearless-Stories-Military/dp/0143440446/ref=sr_1_1?crid=CGW6KF0ZCW3F&dchild=1&keywords=india+most+fearless+1&qid=1633109053&qsid=260-0633092-8167801&sprefix=india+mos%2Caps%2C351&sr=8-1&sres=0143440446%2CB08VG6HS1Z%2CB07SJ5PM7Z%2C9386118823%2CB08VG512X8%2C1649518471%2C9353570190%2C9351777499%2CB074T457S6%2C9352665945%2CB01EVI71XA%2C0143445847%2C9389449286%2C9384464058%2C8175994479%2CB086SP3ZSJ&srpt=ABIS_BOOK"
+	},
+	"fearless2":{
+		"imageSource":"images/fearless2.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/Indias-Most-Fearless-Unimaginable-Sacrifice/dp/0143443151/ref=sr_1_1?dchild=1&keywords=india+most+fearless+2&qid=1633109100&qsid=260-0633092-8167801&sr=8-1&sres=0143443151%2CB09GYCWQ6W%2CB08VG6HS1Z%2C0143440446%2CB08VG512X8%2C939026037X%2C0785168494%2CB07VVLHCJ1%2C935345137X%2CB01F0DHPL8%2C9353570190%2CB01M4MV9GQ%2CB01COSZ09G%2C0143454552%2C9386228173%2CB0798QJGMW&srpt=ABIS_BOOK"
 	},
 	
 	
