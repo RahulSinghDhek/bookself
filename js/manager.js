@@ -286,7 +286,11 @@ var bookShelf = {
 		"tags":["upcoming"],
 		"url":"https://www.amazon.in/Indias-Most-Fearless-Unimaginable-Sacrifice/dp/0143443151/ref=sr_1_1?dchild=1&keywords=india+most+fearless+2&qid=1633109100&qsid=260-0633092-8167801&sr=8-1&sres=0143443151%2CB09GYCWQ6W%2CB08VG6HS1Z%2C0143440446%2CB08VG512X8%2C939026037X%2C0785168494%2CB07VVLHCJ1%2C935345137X%2CB01F0DHPL8%2C9353570190%2CB01M4MV9GQ%2CB01COSZ09G%2C0143454552%2C9386228173%2CB0798QJGMW&srpt=ABIS_BOOK"
 	},
-	
+	"lonesurvivor":{
+		"imageSource":"images/lonesurvivor.jpg",
+		"tags":["upcoming"],
+		"url":"https://www.amazon.in/gp/product/0751555940/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1"
+	},
 	
 	
 }
