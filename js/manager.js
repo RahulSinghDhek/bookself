@@ -1,15 +1,3 @@
-var bookShelf1 = {
-	"borntorun":{
-		"imageSource":"images/borntorun.jpg",
-		"tags":["justfinished","mustread","all","nonfiction"],
-		"url":"https://www.amazon.in/gp/product/1861978774/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
-	},
-	"coffeeCanInvesting":{
-		"imageSource":"images/coffeeCanInvesting.jpg",
-		"tags":["current"],
-		"url":"https://www.amazon.in/gp/product/067009045X/ref=ppx_yo_dt_b_asin_title_o07_s01?ie=UTF8&psc=1"
-	}
-}
 var bookShelf = {
 	"borntorun":{
 		"imageSource":"images/borntorun.jpg",
@@ -262,7 +250,7 @@ var bookShelf = {
 	
 	"hardthingsabouthardthings":{
 		"imageSource":"images/hardthings.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/gp/product/0062273205/ref=ox_sc_act_image_1?smid=AT95IG9ONZD7S&psc=1"
 	},
 	
@@ -278,7 +266,7 @@ var bookShelf = {
 	},
 	"fearless1":{
 		"imageSource":"images/fearless1.jpg",
-		"tags":["current"],
+		"tags":["2021","nonfiction", "all"],
 		"url":"https://www.amazon.in/Indias-Most-Fearless-Stories-Military/dp/0143440446/ref=sr_1_1?crid=CGW6KF0ZCW3F&dchild=1&keywords=india+most+fearless+1&qid=1633109053&qsid=260-0633092-8167801&sprefix=india+mos%2Caps%2C351&sr=8-1&sres=0143440446%2CB08VG6HS1Z%2CB07SJ5PM7Z%2C9386118823%2CB08VG512X8%2C1649518471%2C9353570190%2C9351777499%2CB074T457S6%2C9352665945%2CB01EVI71XA%2C0143445847%2C9389449286%2C9384464058%2C8175994479%2CB086SP3ZSJ&srpt=ABIS_BOOK"
 	},
 	"fearless2":{
@@ -288,7 +276,7 @@ var bookShelf = {
 	},
 	"lonesurvivor":{
 		"imageSource":"images/lonesurvivor.jpg",
-		"tags":["upcoming"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/gp/product/0751555940/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1"
 	},
 	
