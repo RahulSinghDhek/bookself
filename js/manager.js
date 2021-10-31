@@ -279,6 +279,11 @@ var bookShelf = {
 		"tags":["current"],
 		"url":"https://www.amazon.in/gp/product/0751555940/ref=ppx_yo_dt_b_asin_image_o01_s00?ie=UTF8&psc=1"
 	},
+	"naval":{
+		"imageSource":"images/naval.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Almanack-Naval-Ravikant-Wealth-Happiness/dp/9354893899/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+	},
 	
 	
 }
