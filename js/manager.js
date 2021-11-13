@@ -281,8 +281,13 @@ var bookShelf = {
 	},
 	"naval":{
 		"imageSource":"images/naval.jpg",
-		"tags":["current"],
+		"tags":["2021","all","finance","mustread"],
 		"url":"https://www.amazon.in/Almanack-Naval-Ravikant-Wealth-Happiness/dp/9354893899/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+	},
+	"deepwork":{
+		"imageSource":"images/deepwork.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Deep-Work-Focused-Success-Distracted/dp/0349413681"
 	},
 	
 	
