@@ -289,6 +289,11 @@ var bookShelf = {
 		"tags":["current"],
 		"url":"https://www.amazon.in/Deep-Work-Focused-Success-Distracted/dp/0349413681"
 	},
+	"askthedust":{
+		"imageSource":"images/askthedust.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Ask-Dust-John-Fante/dp/0060822554"
+	},
 	
 	
 }
