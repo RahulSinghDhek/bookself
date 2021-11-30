@@ -291,10 +291,9 @@ var bookShelf = {
 	},
 	"askthedust":{
 		"imageSource":"images/askthedust.jpg",
-		["2021","fiction", "all"]
+		"tags":["2021","fiction", "all"],
 		"url":"https://www.amazon.in/Ask-Dust-John-Fante/dp/0060822554"
 	},
-	
 	"awareness":{
 		"imageSource":"images/awareness.jpg",
 		"tags":["current"],
