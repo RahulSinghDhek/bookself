@@ -281,7 +281,7 @@ var bookShelf = {
 	},
 	"naval":{
 		"imageSource":"images/naval.jpg",
-		"tags":["2021","all","finance","mustread"],
+		"tags":["2021","all","nonfiction","mustread"],
 		"url":"https://www.amazon.in/Almanack-Naval-Ravikant-Wealth-Happiness/dp/9354893899/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
 	},
 	"deepwork":{
