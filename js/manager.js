@@ -261,7 +261,7 @@ var bookShelf = {
 	},
 	"letstalkmoney":{
 		"imageSource":"images/letstalkmoney.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/Lets-Talk-Money-Youve-Worked/dp/9352779398/ref=sr_1_2?adgrpid=58389672949&dchild=1&ext_vrnc=hi&gclid=CjwKCAjw49qKBhAoEiwAHQVTo98ANG75Xo8_nAZuZiLQ0sjbY5bcXtAwbGSOHgxxSrg5snrI0_hUaRoCyxUQAvD_BwE&hvadid=294110908938&hvdev=c&hvlocphy=21341&hvnetw=g&hvqmt=e&hvrand=929743974091468497&hvtargid=kwd-330135955363&hydadcr=23639_1725049&keywords=lets+talk+money&qid=1633108825&qsid=260-0633092-8167801&sr=8-2&sres=9352779398%2CB099Q53HW1%2C1886284407%2CB078S8TZKQ%2CB00M6DYCH6%2CB07P2GKTHJ%2CB08D9M3VB8%2CB07NQKHPSN%2C9380942885%2C0836600126%2CB093PXCC3M%2CB08MDCQ283%2CB0058W5QH2%2CB09HMPRJ5W%2CB01HEAGDJU%2CB07ZGBMZBN&srpt=ABIS_BOOK"
 	},
 	"fearless1":{
