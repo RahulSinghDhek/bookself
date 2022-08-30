@@ -296,8 +296,13 @@ var bookShelf = {
 	},
 	"awareness":{
 		"imageSource":"images/awareness.jpg",
-		"tags":["current"],
+		"tags":["2021","2022","all","nonfiction","mustread"],
 		"url":"https://www.amazon.in/Awareness-Conversations-Masters-Anthony-Mello/dp/0385249373"
+	},
+	"songOfTheBird":{
+		"imageSource":"images/songOfTheBird.jpg",
+		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Song-Bird-Anthony-Mello/dp/0385196156"
 	},
 	
 	
@@ -316,7 +321,7 @@ function updateBackgroundColors(tabs,tabid){
 	} 
 }
 function updateTabBackgroundColors(tabid,isSubTab){
-	var tabs= ["currenttab","justfinishedtab","upcomingtab","completedtab","unfinishedtab","mustreadtab","2021tab"];
+	var tabs= ["currenttab","justfinishedtab","upcomingtab","completedtab","unfinishedtab","mustreadtab","2021tab", "2022tab"];
 	var subTabs = ["alltab","financetab","fictiontab","nonfictiontab","selfimprovementtab"]; 
 	if(isSubTab){
 		updateBackgroundColors(subTabs,tabid);
