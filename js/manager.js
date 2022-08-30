@@ -176,7 +176,7 @@ var bookShelf = {
 	},
 	"bookofmirdad":{
 		"imageSource":"images/bookofmirdad.jpg",
-		"tags":["unfinished"],
+		"tags":["2022","all","nonfiction", "mustread"],
 		"url":"https://www.amazon.in/Book-Mirdad-Strange-Monastery-Called/dp/1842930389"
 	},
 	"siddhartha":{
@@ -304,6 +304,16 @@ var bookShelf = {
 		"tags":["2022","all","nonfiction"],
 		"url":"https://www.amazon.in/Song-Bird-Anthony-Mello/dp/0385196156"
 	},
+	"bookoflife":{
+		"imageSource":"images/bookoflife.jpg",
+		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Book-Life-J-Krishnamurti/dp/0060648791"
+	},
+	"fear":{
+		"imageSource":"images/fear.jpg",
+		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Fear-Essential-Wisdom-Getting-Through/dp/1846043182/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+	}
 	
 	
 	
