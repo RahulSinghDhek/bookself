@@ -313,7 +313,13 @@ var bookShelf = {
 		"imageSource":"images/fear.jpg",
 		"tags":["2022","all","nonfiction"],
 		"url":"https://www.amazon.in/Fear-Essential-Wisdom-Getting-Through/dp/1846043182/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+	},
+	"cheese":{
+		"imageSource":"images/cheese.jpg",
+		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Who-Moved-My-Cheese-Amazing/dp/0091816971/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
 	}
+	
 	
 	
 	
