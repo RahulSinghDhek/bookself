@@ -244,7 +244,7 @@ var bookShelf = {
 	},
 	"norwegianwood":{
 		"imageSource":"images/norwegianwood.jpg",
-		"tags":["unfinished"],
+		"tags":["current"],
 		"url":"https://www.amazon.in/Norwegian-Wood-Haruki-Murakami/dp/0099448823"
 	},
 	
@@ -286,7 +286,7 @@ var bookShelf = {
 	},
 	"deepwork":{
 		"imageSource":"images/deepwork.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/Deep-Work-Focused-Success-Distracted/dp/0349413681"
 	},
 	"askthedust":{
@@ -317,6 +317,21 @@ var bookShelf = {
 	"cheese":{
 		"imageSource":"images/cheese.jpg",
 		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Who-Moved-My-Cheese-Amazing/dp/0091816971/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+	},
+	"artOfLiving":{
+		"imageSource":"images/artOfLiving.jpg",
+		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Book-Life-J-Krishnamurti/dp/0060648791"
+	},
+	"seneca":{
+		"imageSource":"images/seneca.jpg",
+		"tags":["2022","all","nonfiction"],
+		"url":"https://www.amazon.in/Fear-Essential-Wisdom-Getting-Through/dp/1846043182/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+	},
+	"netaji":{
+		"imageSource":"images/netaji.jpg",
+		"tags":["current"],
 		"url":"https://www.amazon.in/Who-Moved-My-Cheese-Amazing/dp/0091816971/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
 	}
 	
