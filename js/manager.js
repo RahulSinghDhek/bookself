@@ -322,17 +322,17 @@ var bookShelf = {
 	"artOfLiving":{
 		"imageSource":"images/artOfLiving.jpg",
 		"tags":["2022","all","nonfiction"],
-		"url":"https://www.amazon.in/Book-Life-J-Krishnamurti/dp/0060648791"
+		"url":"https://www.amazon.in/Art-Living-Classical-Happiness-Effectiveness/dp/9350291657/ref=sr_1_3?crid=58DOJT1D1GEV&keywords=art+of+living&qid=1664476276&qu=eyJxc2MiOiIzLjg5IiwicXNhIjoiMy4wNCIsInFzcCI6IjEuODgifQ%3D%3D&s=books&sprefix=art+of+livi%2Cstripbooks%2C513&sr=1-3"
 	},
 	"seneca":{
 		"imageSource":"images/seneca.jpg",
 		"tags":["2022","all","nonfiction"],
-		"url":"https://www.amazon.in/Fear-Essential-Wisdom-Getting-Through/dp/1846043182/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+		"url":"https://www.amazon.com/Shortness-Life-Penguin-Great-Ideas/dp/0143036327/ref=asc_df_0143036327/?tag=hyprod-20&linkCode=df0&hvadid=353842596182&hvpos=&hvnetw=g&hvrand=4049914128599715538&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1024403&hvtargid=pla-504409002927&psc=1&tag=&ref=&adgrpid=74118469329&hvpone=&hvptwo=&hvadid=353842596182&hvpos=&hvnetw=g&hvrand=4049914128599715538&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1024403&hvtargid=pla-504409002927"
 	},
 	"netaji":{
 		"imageSource":"images/netaji.jpg",
 		"tags":["current"],
-		"url":"https://www.amazon.in/Who-Moved-My-Cheese-Amazing/dp/0091816971/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+		"url":"https://www.amazon.in/What-Happened-Netaji-Anuj-Dhar/dp/9382711880/ref=sr_1_2?keywords=what+happened+to+netaji&qid=1664476242&qu=eyJxc2MiOiIxLjgwIiwicXNhIjoiMS4xMCIsInFzcCI6IjAuNjAifQ%3D%3D&s=books&sprefix=what+happene%2Cstripbooks%2C571&sr=1-2"
 	}
 	
 	
