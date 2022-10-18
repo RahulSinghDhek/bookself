@@ -333,7 +333,14 @@ var bookShelf = {
 		"imageSource":"images/netaji.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/What-Happened-Netaji-Anuj-Dhar/dp/9382711880/ref=sr_1_2?keywords=what+happened+to+netaji&qid=1664476242&qu=eyJxc2MiOiIxLjgwIiwicXNhIjoiMS4xMCIsInFzcCI6IjAuNjAifQ%3D%3D&s=books&sprefix=what+happene%2Cstripbooks%2C571&sr=1-2"
+	},
+	"waytolove":{
+		"imageSource":"images/thewaytolove.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Way-Love-Meditations-Anthony-Classics/dp/038524939X"
 	}
+	
+	
 	
 	
 	
