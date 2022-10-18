@@ -166,7 +166,7 @@ var bookShelf = {
 	},
 	"thinklikeamonk":{
 		"imageSource":"images/thinklikeamonk.jpg",
-		"tags":["justfinished","all","mustread","selfimprovement"],
+		"tags":["justfinished","all","selfimprovement"],
 		"url":"https://www.amazon.in/Think-Like-Monk-Jay-Shetty/dp/0008386595"
 	},
 	"psychologyofmoney":{
@@ -244,7 +244,7 @@ var bookShelf = {
 	},
 	"norwegianwood":{
 		"imageSource":"images/norwegianwood.jpg",
-		"tags":["current"],
+		"tags":["2022","all","fiction"],
 		"url":"https://www.amazon.in/Norwegian-Wood-Haruki-Murakami/dp/0099448823"
 	},
 	
@@ -338,13 +338,12 @@ var bookShelf = {
 		"imageSource":"images/thewaytolove.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/Way-Love-Meditations-Anthony-Classics/dp/038524939X"
+	},
+	"thinkonthesethings":{
+		"imageSource":"images/thinkonthesethings.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Think-these-things-J-Krishnamurti/dp/8187326840/ref=sr_1_3?crid=1C4BCVPTVHU7Z&keywords=think+on+these+things&qid=1666064363&qu=eyJxc2MiOiIwLjM3IiwicXNhIjoiMC4yMSIsInFzcCI6IjAuNjUifQ%3D%3D&s=books&sprefix=think+on+%2Cstripbooks%2C695&sr=1-3"
 	}
-	
-	
-	
-	
-	
-	
 }
 
 
