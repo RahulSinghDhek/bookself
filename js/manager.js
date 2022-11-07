@@ -331,18 +331,28 @@ var bookShelf = {
 	},
 	"netaji":{
 		"imageSource":"images/netaji.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/What-Happened-Netaji-Anuj-Dhar/dp/9382711880/ref=sr_1_2?keywords=what+happened+to+netaji&qid=1664476242&qu=eyJxc2MiOiIxLjgwIiwicXNhIjoiMS4xMCIsInFzcCI6IjAuNjAifQ%3D%3D&s=books&sprefix=what+happene%2Cstripbooks%2C571&sr=1-2"
 	},
 	"waytolove":{
 		"imageSource":"images/thewaytolove.jpg",
-		"tags":["current"],
+		"tags":["2022","all","nonfiction","mustread"],
 		"url":"https://www.amazon.in/Way-Love-Meditations-Anthony-Classics/dp/038524939X"
 	},
 	"thinkonthesethings":{
 		"imageSource":"images/thinkonthesethings.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/Think-these-things-J-Krishnamurti/dp/8187326840/ref=sr_1_3?crid=1C4BCVPTVHU7Z&keywords=think+on+these+things&qid=1666064363&qu=eyJxc2MiOiIwLjM3IiwicXNhIjoiMC4yMSIsInFzcCI6IjAuNjUifQ%3D%3D&s=books&sprefix=think+on+%2Cstripbooks%2C695&sr=1-3"
+	},
+	"handfulofnuts":{
+		"imageSource":"images/handfulofnuts.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Handful-Nuts-Ruskin-Bond/dp/0143067400"
+	},
+	"couragetobebdisliked":{
+		"imageSource":"images/couragetobebdisliked.jpg",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Courage-Disliked-Ichiro-Kishimi-Fumitake/dp/1760630721/ref=sr_1_1_sspa?crid=2YS948N16VWIO&keywords=courage+to+be+disliked+book&qid=1667801971&qu=eyJxc2MiOiIxLjc2IiwicXNhIjoiMS4wNCIsInFzcCI6IjAuNzEifQ%3D%3D&s=books&sprefix=courage%2Cstripbooks%2C369&sr=1-1-spons&psc=1"
 	}
 }
 
