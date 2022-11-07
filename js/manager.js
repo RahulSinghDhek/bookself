@@ -349,8 +349,8 @@ var bookShelf = {
 		"tags":["current"],
 		"url":"https://www.amazon.in/Handful-Nuts-Ruskin-Bond/dp/0143067400"
 	},
-	"couragetobebdisliked":{
-		"imageSource":"images/couragetobebdisliked.jpg",
+	"couragetobedisliked":{
+		"imageSource":"images/couragetobedisliked.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/Courage-Disliked-Ichiro-Kishimi-Fumitake/dp/1760630721/ref=sr_1_1_sspa?crid=2YS948N16VWIO&keywords=courage+to+be+disliked+book&qid=1667801971&qu=eyJxc2MiOiIxLjc2IiwicXNhIjoiMS4wNCIsInFzcCI6IjAuNzEifQ%3D%3D&s=books&sprefix=courage%2Cstripbooks%2C369&sr=1-1-spons&psc=1"
 	}
