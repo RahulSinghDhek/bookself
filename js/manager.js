@@ -354,8 +354,8 @@ var bookShelf = {
 		"tags":["current"],
 		"url":"https://www.amazon.in/Courage-Disliked-Ichiro-Kishimi-Fumitake/dp/1760630721/ref=sr_1_1_sspa?crid=2YS948N16VWIO&keywords=courage+to+be+disliked+book&qid=1667801971&qu=eyJxc2MiOiIxLjc2IiwicXNhIjoiMS4wNCIsInFzcCI6IjAuNzEifQ%3D%3D&s=books&sprefix=courage%2Cstripbooks%2C369&sr=1-1-spons&psc=1"
 	},
-	"100bagger":{
-		"imageSource":"images/100bagger.jpeg",
+	"100baggers":{
+		"imageSource":"images/100baggers.jpeg",
 		"tags":["2023","all","finance","mustread"],
 		"url":"https://www.amazon.in/100-Baggers-Stocks-100-1/dp/9391560555/ref=sr_1_1?keywords=100+bagger&qid=1678713802&sr=8-1"
 	},
