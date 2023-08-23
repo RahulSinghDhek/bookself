@@ -363,6 +363,21 @@ var bookShelf = {
 		"imageSource":"images/commonstocks.jpg",
 		"tags":["current"],
 		"url":"https://www.amazon.in/Common-stocks-uncommon-profits-writings/dp/B0BVWDS8ZH/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1678713946&sr=8-1-spons"
+	},
+	"richerwiserhappier":{
+		"imageSource":"images/richerwiserhappier.jpeg",
+		"tags":["2023","all","finance","mustread"],
+		"url":"https://www.amazon.in/Richer-Wiser-Happier-Greatest-Investors/dp/1781258619/ref=sr_1_1?crid=3TUW9BX5E088Z&keywords=richer+wiser+and+happier&qid=1692803289&sprefix=richer+wiser%2Caps%2C679&sr=8-1"
+	},
+	"whywesleep":{
+		"imageSource":"images/whywesleep.jpeg",
+		"tags":["2023","nonfiction"],
+		"url":"https://www.amazon.in/Why-We-Sleep-Matthew-Walker/dp/0141983760/ref=sr_1_1?crid=1V51P8JF875C5&keywords=why+we+sleep&qid=1692803591&sprefix=why+we+sleep%2Caps%2C670&sr=8-1"
+	},
+	"whywesleep":{
+		"imageSource":"images/whywesleep.jpeg",
+		"tags":["2023","nonfiction"],
+		"url":"https://www.amazon.in/Why-We-Sleep-Matthew-Walker/dp/0141983760/ref=sr_1_1?crid=1V51P8JF875C5&keywords=why+we+sleep&qid=1692803591&sprefix=why+we+sleep%2Caps%2C670&sr=8-1"
 	}
 }
 
