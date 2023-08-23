@@ -341,7 +341,7 @@ var bookShelf = {
 	},
 	"thinkonthesethings":{
 		"imageSource":"images/thinkonthesethings.jpg",
-		"tags":["current"],
+		"tags":["2023","all","nonfiction","mustread"],
 		"url":"https://www.amazon.in/Think-these-things-J-Krishnamurti/dp/8187326840/ref=sr_1_3?crid=1C4BCVPTVHU7Z&keywords=think+on+these+things&qid=1666064363&qu=eyJxc2MiOiIwLjM3IiwicXNhIjoiMC4yMSIsInFzcCI6IjAuNjUifQ%3D%3D&s=books&sprefix=think+on+%2Cstripbooks%2C695&sr=1-3"
 	},
 	"handfulofnuts":{
