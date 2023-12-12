@@ -374,6 +374,16 @@ var bookShelf = {
 		"tags":["2023","nonfiction"],
 		"url":"https://www.amazon.in/Why-We-Sleep-Matthew-Walker/dp/0141983760/ref=sr_1_1?crid=1V51P8JF875C5&keywords=why+we+sleep&qid=1692803591&sprefix=why+we+sleep%2Caps%2C670&sr=8-1"
 	},
+	"pulakprasad":{
+		"imageSource":"images/pulakprasad.jpg",
+		"tags":["2023","all","finance","mustread"]
+		"url":"https://www.amazon.in/gp/product/0231213506/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
+	},
+	"boyinstripedPyjama":{
+			"imageSource":"images/theBoyInTheStripedPyjamas.jpg",
+			"tags":["2023","all","finance","mustread"]
+			"url":"https://www.amazon.in/gp/product/0099572869/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"
+	},
 	// "whywesleep":{
 	// 	"imageSource":"images/whywesleep.jpeg",
 	// 	"tags":["2023","nonfiction"],
