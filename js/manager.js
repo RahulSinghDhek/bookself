@@ -376,12 +376,12 @@ var bookShelf = {
 	},
 	"pulakprasad":{
 		"imageSource":"images/pulakprasad.jpg",
-		"tags":["2023","all","finance","mustread"]
+		"tags":["2023","all","finance","mustread"],
 		"url":"https://www.amazon.in/gp/product/0231213506/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	"boyinstripedPyjama":{
 			"imageSource":"images/theBoyInTheStripedPyjamas.jpg",
-			"tags":["2023","all","finance","mustread"]
+			"tags":["current"],
 			"url":"https://www.amazon.in/gp/product/0099572869/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"
 	},
 	// "whywesleep":{
