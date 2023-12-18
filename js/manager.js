@@ -361,7 +361,7 @@ var bookShelf = {
 	},
 	"commonstocks":{
 		"imageSource":"images/commonstocks.jpg",
-		"tags":["current"],
+		"tags":["2023","all","finance","mustread"],
 		"url":"https://www.amazon.in/Common-stocks-uncommon-profits-writings/dp/B0BVWDS8ZH/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1678713946&sr=8-1-spons"
 	},
 	"richerwiserhappier":{
