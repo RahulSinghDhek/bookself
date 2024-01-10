@@ -408,7 +408,7 @@ function updateBackgroundColors(tabs,tabid){
 	} 
 }
 function updateTabBackgroundColors(tabid,isSubTab){
-	var tabs= ["currenttab","justfinishedtab","upcomingtab","completedtab","unfinishedtab","mustreadtab","2021tab", "2022tab", "2023tab"];
+	var tabs= ["currenttab","justfinishedtab","upcomingtab","completedtab","unfinishedtab","mustreadtab","2021tab", "2022tab", "2023tab", "2024tab"];
 	var subTabs = ["alltab","financetab","fictiontab","nonfictiontab","selfimprovementtab"]; 
 	if(isSubTab){
 		updateBackgroundColors(subTabs,tabid);
