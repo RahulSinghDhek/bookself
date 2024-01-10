@@ -351,7 +351,7 @@ var bookShelf = {
 	},
 	"couragetobedisliked":{
 		"imageSource":"images/couragetobedisliked.jpg",
-		"tags":["current"],
+		"tags":["unfinished"],
 		"url":"https://www.amazon.in/Courage-Disliked-Ichiro-Kishimi-Fumitake/dp/1760630721/ref=sr_1_1_sspa?crid=2YS948N16VWIO&keywords=courage+to+be+disliked+book&qid=1667801971&qu=eyJxc2MiOiIxLjc2IiwicXNhIjoiMS4wNCIsInFzcCI6IjAuNzEifQ%3D%3D&s=books&sprefix=courage%2Cstripbooks%2C369&sr=1-1-spons&psc=1"
 	},
 	"100baggers":{
@@ -380,15 +380,20 @@ var bookShelf = {
 		"url":"https://www.amazon.in/gp/product/0231213506/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1"
 	},
 	"boyinstripedPyjama":{
-			"imageSource":"images/theBoyInTheStripedPyjamas.jpg",
-			"tags":["current"],
-			"url":"https://www.amazon.in/gp/product/0099572869/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"
+		"imageSource":"images/theBoyInTheStripedPyjamas.jpg",
+		"tags":["2023","fiction"],
+		"url":"https://www.amazon.in/gp/product/0099572869/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1"
 	},
-	// "whywesleep":{
-	// 	"imageSource":"images/whywesleep.jpeg",
-	// 	"tags":["2023","nonfiction"],
-	// 	"url":"https://www.amazon.in/Why-We-Sleep-Matthew-Walker/dp/0141983760/ref=sr_1_1?crid=1V51P8JF875C5&keywords=why+we+sleep&qid=1692803591&sprefix=why+we+sleep%2Caps%2C670&sr=8-1"
-	// }
+	"sameasever":{
+		"imageSource":"images/sameasever.png",
+		"tags":["current"],
+		"url":"https://www.amazon.in/Same-As-Ever-Timeless-Opportunity/dp/1804090948"
+	},
+	"4hourworkweek":{
+		"imageSource":"images/4hourworkweek.png",
+		"tags":["current"],
+		"url":"https://www.amazon.in/4-Hour-Work-Week-Escape-Anywhere/dp/0091929113/ref=sr_1_1?crid=15WPBQOPSUF4&keywords=4+hour+work+week&qid=1704888208&s=books&sprefix=4+hour%2Cstripbooks%2C730&sr=1-1"
+	}
 }
 
 
